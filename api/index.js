@@ -23,12 +23,12 @@ app.get('/api/models', (req, res) => {
         {
             name: "Nike",
             glbUrl: "https://storage.polycam.io/captures/7dbfb890-bc2c-4b77-87b5-187973bcbdee/raw.glb?t=1729077764551",
-            usdzUrl: "https://immersive-commerce.vercel.app/models/nike.usdz"
+            usdzUrl: "https://superdwayne.github.io/usdzhost/nike.usdz"
         },
         {
             name: "Bag",
             glbUrl: "https://storage.polycam.io/captures/1ac77d1b-3178-4738-bbb4-ae1e6c883542/raw.glb?t=1729077815091",
-            usdzUrl: "https://superdwayne.github.io/usdzhost/nike.usdz"
+            usdzUrl: "https://superdwayne.github.io/usdzhost/gucci.usdz"
         },
         {
             name: "Dior",
