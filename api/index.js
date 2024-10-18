@@ -1,9 +1,22 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
+const cors = require('cors');
+require('dotenv').config();
+
+const corsOptions = {
+    origin: process.env.FRONTEND_URL || 'https://ss-back-theta.vercel.app/',
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+    optionsSuccessStatus: 204
+  };
+
+app.use(cors());
+app.use(express.json());
 
 // API endpoint to get all 3D models (GLB and USDZ)
-app.get('/api/models', (req, res) => {
+app.get('/api/models', cors(), async (req, res) => {
     const models = [
         {
             name: "Jacket",
