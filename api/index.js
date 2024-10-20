@@ -5,7 +5,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const corsOptions = {
-    origin: process.env.FRONTEND_URL || 'https://ss-back-theta.vercel.app/',
+    origin: process.env.FRONTEND_URL || 'immersive-commerce.vercel.app/',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
@@ -101,3 +101,4 @@ app.get('/api/models/:name', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
