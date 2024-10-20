@@ -29,13 +29,13 @@ app.get('/api/models', cors(), async (req, res) => {
             usdzUrl: "https://superdwayne.github.io/usdzhost/used_new.usdz"
         },
         {
-            name: "Fila",
-            glbUrl: "https://storage.polycam.io/captures/e7860688-4e56-44e4-8b5a-d1fbcc34775f/raw.glb?t=1729077484936",
+            name: "Dior birks",
+            glbUrl: "https://storage.polycam.io/captures/875883e9-9a75-44d9-b148-beaf28dc6689/poly.glb?t=1712313069573",
             usdzUrl: "https://superdwayne.github.io/usdzhost/fila.usdz"
         },
         {
             name: "Nike",
-            glbUrl: "https://storage.polycam.io/captures/7dbfb890-bc2c-4b77-87b5-187973bcbdee/raw.glb?t=1729077764551",
+            glbUrl: "https://storage.polycam.io/captures/0023494b-28c7-4056-8d3a-a4fcd8177ebd/raw.glb?t=1729424392257",
             usdzUrl: "https://superdwayne.github.io/usdzhost/nike.usdz"
         },
         {
@@ -66,13 +66,13 @@ app.get('/api/models/:name', (req, res) => {
             usdzUrl: "https://superdwayne.github.io/usdzhost/used_new.usdz"
         },
         {
-            name: "Fila",
-            glbUrl: "https://storage.polycam.io/captures/e7860688-4e56-44e4-8b5a-d1fbcc34775f/raw.glb?t=1729077484936",
+            name: "dior birks",
+            glbUrl: "https://storage.polycam.io/captures/875883e9-9a75-44d9-b148-beaf28dc6689/poly.glb?t=1712313069573",
             usdzUrl: "https://superdwayne.github.io/usdzhost/fila.usdz"
         },
         {
             name: "Nike",
-            glbUrl: "https://storage.polycam.io/captures/7dbfb890-bc2c-4b77-87b5-187973bcbdee/raw.glb?t=1729077764551",
+            glbUrl: "https://storage.polycam.io/captures/0023494b-28c7-4056-8d3a-a4fcd8177ebd/raw.glb?t=1729424392257",
             usdzUrl: "https://immersive-commerce.vercel.app/models/nike.usdz"
         },
         {
