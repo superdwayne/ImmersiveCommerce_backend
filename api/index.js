@@ -24,9 +24,14 @@ app.get('/api/models', cors(), async (req, res) => {
             usdzUrl: "https://superdwayne.github.io/usdzhost/goose.usdz"
         },
         {
+            name: "New Balance",
+            glbUrl: "https://storage.polycam.io/captures/a239a68e-3abe-466d-b624-fd078cf6f071/raw.glb?t=1730449956162",
+            usdzUrl: "https://superdwayne.github.io/usdzhost/NB.usdz"
+        },
+        {
             name: "Balenciaga",
-            glbUrl: "https://storage.polycam.io/captures/d3efbdcb-ef62-4112-b7c5-3f099f24b636/raw.glb?t=1729077279389",
-            usdzUrl: "https://superdwayne.github.io/usdzhost/used_new.usdz"
+            glbUrl: "https://storage.polycam.io/captures/2b90ce05-d786-4704-a9f3-dad76ca4e482/raw.glb?t=1730450461212",
+            usdzUrl: "https://superdwayne.github.io/usdzhost/BL.usdz"
         },
         {
             name: "Dior birks",
@@ -35,8 +40,8 @@ app.get('/api/models', cors(), async (req, res) => {
         },
         {
             name: "Nike",
-            glbUrl: "https://storage.polycam.io/captures/0023494b-28c7-4056-8d3a-a4fcd8177ebd/raw.glb?t=1729424392257",
-            usdzUrl: "https://superdwayne.github.io/usdzhost/nike.usdz"
+            glbUrl: "https://storage.polycam.io/captures/ab16d128-e721-4195-8603-3e097c0de88b/raw.glb?t=1730453857903",
+            usdzUrl: "https://superdwayne.github.io/usdzhost/Dunk.usdz"
         },
         {
             name: "Bag",
